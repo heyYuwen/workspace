@@ -1,0 +1,638 @@
+/*头部 header*/
+.nav span a{
+  color: #333;
+  text-decoration: none;
+}
+.nav span a:hover{
+  color:#0657a9;
+}
+.header{
+  width: 100%;
+  color: #333333;
+  position:fixed;
+  top: 0px;
+  z-index: 2;
+}
+.top{
+  height: 44px;
+  color: #fff;
+  display: flex;
+  background: #0657a9;
+  align-items: center;
+  /*padding-left:140px;*/
+  text-align: center;
+}
+.top img{
+  display: block;
+  height: 40px;
+  margin: auto;
+}
+
+.nav{
+  /*border:1px solid salmon;*/
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  background: #fff;
+}
+
+.nav span{
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+
+}
+
+
+/*尾部*/
+.footer{
+  padding-top: 5px;
+  width: 100%;
+  height: 45px;
+  background: #0657a9;
+  position:fixed;
+  bottom: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer span {
+  color: #ffffff;
+  font-size: 10px;
+
+}
+.footer span a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
+/* home.vue 首页 */
+.mint-swipe{
+  height: 150px;
+}
+
+.mint-swipe-item img{
+  display: block;
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+.mint-swipe-indicator{
+  background: #999;
+  opacity: 1;
+}
+.lesson{
+  display: flex;
+  flex-wrap: wrap;
+  background: #fbfbfc;
+  padding-bottom: 10px;
+}
+.lesson a{
+  width: 25%;
+  margin: 10px 0;
+
+}
+
+.lesson a  img{
+  width: 50px;
+  height: 50px;
+}
+.lesson a{
+  text-decoration: none;
+}
+.lesson  p{
+  font-size: 8px;
+  color: #333;
+}
+
+.mint-cell-title{
+  text-align: left;
+}
+.is-selected{
+  background:#0657a9;
+  color: #fff;
+}
+.mint-navbar .mint-tab-item.is-selected{
+  color: aliceblue;
+}
+.mint-navbar{
+  background: #efefef;
+}
+.mint-cell-wrapper{
+  background-image: none;
+}
+.more{
+  text-align: right;
+}
+.end{
+  display: flex;
+}
+.end .left{
+  padding-left: 30px;
+  width: 58%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left span{
+  width: 45%;
+  text-align: center;
+
+}
+.left span img{
+  margin-top:20px;
+  width:90%;
+}
+.end .right{
+  width: 30%;
+}
+.right img{
+  width: 90%;
+  height: 90%;
+}
+.last{
+  width: 100%;
+  height: 30px;
+  background: #efefef;
+}
+.watch{
+  display: flex;
+}
+.actical_img {
+  width: 45%;
+}
+.actical_img img{
+  width: 170px;
+}
+.artical{
+  width: 65%;
+}
+.title{
+  margin: 10px 0;
+  padding:10px;
+  background: #e6e8e9;
+}
+h3{
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 10px;
+  color: #333;
+  border-left: 5px solid #0657a9;
+}
+h4{
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+}
+.artical p{
+  text-align: left;
+  padding: 5px;
+  color: #9fa3a6;
+  font-size: 14px;
+}
+.warp img{
+  width: 100%;
+}
+.news_img img{
+  width:100%
+}
+.news_img{
+  position: relative;
+}
+.news_text{
+  width: 100%;
+  height: 50px;
+  opacity: 0.8;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+}
+.mint-tab-container-item a{
+  padding: 10px 10px;
+  text-align: left;
+  display: flex;
+  text-decoration: none;
+  color: #7e7d7d;
+}
+.mint-tab-container-item a img{
+  width: 100px;
+  height: 50px;
+  display: block;
+
+}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+/*教师 Teacher*/
+.cc_w{
+  width: 100%;
+  height: 180px;
+  background: #e0eefb;
+  display: flex;
+  padding-top: 20px;
+}
+.cc_w_1{
+  width:50%;
+  margin:0 20px 0 10px;
+}
+.cc_w_1 h3{
+  color: #0657a9;
+  margin-bottom: 20px;
+  border-left: 4px solid  #0657a9;
+  text-align: left;
+  padding-left: 10px;
+}
+.cc_w_1 p{
+  text-align: left;
+  text-indent: 2em;
+  color: #888;
+  line-height: 25px;
+}
+.cc_w_2{
+  padding-top: 5px;
+}
+.les1{
+  border-bottom:1px solid #efefef;
+  display: flex;
+  width: 97%;
+  margin: auto;
+  padding: 15px 0;
+}
+.les_img{
+  width: 30%;
+  height: 155px;
+}
+.les_img img{
+  width: 100px;
+  height:155px;
+}
+.les_text{
+  padding-left: 10px;
+  width: 65%;
+
+}
+h4{
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+}
+.les_text p{
+  margin-top: 10px;
+  color: #888;
+  font-size: 11px;
+}
+.les_text p{
+  display: -webkit-box;
+  -webkit-line-clamp:5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+
+/*新闻 newst.vue*/
+.tbody{
+  background:#e0eefb ;
+  padding-top: 20px;
+}
+.content{
+
+  padding: 10px 10px;
+}
+.back{
+  margin-top: 20px;
+}
+.time{
+  font-size: 7px;
+  color: #ccc;
+}
+.tbody p{
+  text-indent: 2em;
+  line-height: 30px;
+  color: #333;
+  text-align: left;
+}
+
+
+
+/*关于 about*/
+.baner img{
+
+  display: block;
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.content{
+  padding: 10px 10px;
+  background: #e0eefb;
+}
+.content p{
+  text-indent: 2em;
+  line-height: 30px;
+  color:  #333;
+  text-align: left;
+}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+
+/*详细课程*/
+.cu_top{
+  width: 100%;
+  height: 50px;
+  background:#ccc;
+}
+
+
+/*环境*/
+.banner img{
+  width: 100%;
+}
+
+.les1{
+  border-bottom:1px solid #efefef;
+  display: flex;
+  width: 97%;
+  margin: auto;
+  padding: 15px 0;
+}
+.lesimg{
+  width: 50%;
+  height: 100px;
+
+}
+.lesimg img{
+  width: 90%;
+  /*height: 80px;*/
+}
+.lestext{
+  padding-left: 10px;
+  width: 50%;
+
+}
+h4{
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+}
+.lestext p{
+  margin-top: 10px;
+  color: #888;
+  font-size: 6px;
+}
+.lestext p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.env{
+  background: #efefef;
+  padding-top: 20px;
+}
+.env img{
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+}
+.env span{
+  font-family: 微软雅黑;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.env p{
+  width: 90%;
+  color: #888;
+  line-height: 30px;
+  text-align: left;
+}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+
+
+/*热门新闻 hot.vue*/
+.content{
+  padding: 0 10px;
+}
+.content img{
+  width: 100%;
+}
+.content span{
+  color: #ccc;
+  font-size: 16px;
+  text-align: left;
+}
+.content p{
+  text-align: left;
+
+  text-indent:2em ;
+  line-height: 25px;
+  color:#767171
+}
+
+
+/*job.vue 课程*/
+.les1{
+  padding: 20px 0;
+  border-bottom:1px solid #efefef;
+  display: flex;
+  width: 97%;
+  margin: auto;
+  padding: 15px 0;
+}
+.lesimg{
+  width: 50%;
+  height: 100px;
+
+}
+.lesimg img{
+  width: 90%;
+}
+.lestext{
+  padding-left: 10px;
+  width: 50%;
+
+}
+.lestext h5{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+}
+.lestext p{
+  margin-top: 10px;
+  color: #888;
+  font-size: 12px;
+  line-height: 22px;
+}
+.lestext p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc_w{
+  width: 100%;
+  height: 180px;
+  background: #e0eefb;
+  display: flex;
+  padding-top: 10px;
+}
+.cc_w_1{
+  width:50%;
+  margin:0 20px 0 10px;
+}
+.cc_w_1 h3{
+  color: #0657a9;
+  margin-bottom: 20px;
+  border-left: 4px solid  #0657a9;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.cc_w_1 p{
+  text-align: left;
+  text-indent: 2em;
+  color: #888;
+  line-height: 25px;
+}
+.cc_w_2{
+  padding-top: 5px;
+}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+
+/*subform.vue 提交表单*/
+.mint-radio-label{
+  text-align: left;
+}
+
+/*课程lesson.vue*/
+.cc_w{
+  width: 100%;
+  height: 180px;
+  background: #e0eefb;
+  display: flex;
+  padding-top: 20px;
+}
+.cc_w_1{
+  width:50%;
+  margin:0 20px 0 10px;
+}
+.cc_w_1 h3{
+  color: #0657a9;
+  margin-bottom: 20px;
+  border-left: 4px solid  #0657a9;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.cc_w_1 p{
+  text-align: left;
+  text-indent: 2em;
+  color: #888;
+  line-height: 25px;
+}
+.cc_w_2{
+  padding-top: 5px;
+}
+.les1{
+  padding: 20px 0;
+  border-bottom:1px solid #efefef;
+  display: flex;
+  width: 97%;
+  margin: auto;
+  padding: 15px 0;
+}
+.lesimg2{
+  width: 40%;
+  height: 100px;
+
+}
+.lesimg2 img{
+  width: 100px;
+  height:100px;
+}
+.lestext2{
+  padding:0 10px;
+  width: 65%;
+
+}
+.lestext2 h5{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+}
+.lestext2 p{
+  margin-top: 10px;
+  color: #888;
+  font-size: 12px;
+  line-height: 22px;
+}
+.lestext2 p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+.entip{
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+/*news.vue 新闻*/
+.tbody{
+  background:#e0eefb ;
+  padding-top: 20px;
+}
+.content{
+  padding: 0 10px;
+}
+.back{
+  margin-top: 20px;
+}
+.time{
+  font-size: 7px;
+  color: #ccc;
+}
+.content p{
+  text-align: left;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #333;
+}
+.news-title{
+  background: #e0eefb;
+}
